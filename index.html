@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
 <body>
     <nav>
         <div class="container-nav">
             <div>
-                <h2 class="color-primary">RITIK</h2>
+                <h2 class="color-primary animate__animated animate__jello">RITIK</h2>
             </div>
             <div class="navbar">
-                <ul>
+                <ul class="animate__animated animate__fadeInDown">
                     <li><a href="">Education</a></li>
-                    <li><a href="">Skills</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="">Experience</a></li>
                     <li><a href="">Profile</a></li>
                     <li><a href="">Portfolio</a></li>
@@ -29,11 +33,12 @@
     </nav>
 
     <main>
+        <!-- banner -->
         <section>
             <div class="welcomeBanner">
                 <div class="container-banner">
                     <div class="headerText">
-                        <h2>
+                        <h2 class="animate__animated animate__bounceInLeft">
                             HI
                             <span class="color-primary">,</span>
                             I AM
@@ -41,10 +46,10 @@
                             RITIK
                             <br>
                             KUMAR
-                            <span class="color-primary">.</span>
                         </h2>
-                        <p>UI Designer and Web Developer</p>
-                        <a href="https://www.free-css.com/free-css-templates/page296/browny">
+                        <p class="animate__animated animate__backInRight">UI Designer and Web Developer</p>
+                        <a href="https://www.free-css.com/free-css-templates/page296/browny"
+                        class="animate__animated animate__bounceInLeft">
                             download Resume
                         </a>
                     </div>
@@ -52,11 +57,12 @@
             </div>
         </section>
 
+        <!-- about me -->
         <section>
-            <div class="title">ABOUT ME</div>
+            <div class="title animate__animated animate__flipInX">ABOUT ME</div>
             <div class="container-aboutMe">
-                <div>
-                    <div class="aboutMe">
+                <div class="aboutMe">
+                    <div class="details">
                         <h2>I am a Professional UI/UX Designer and Web developer. Lorem ipsum dolor sit amet consectetur
                             adipisicing elit. Eveniet adipisci fugiat deleniti animi delectus aperiam laboriosam,
                             voluptatem, fuga, quasi obcaecati nam quidem in officiis. Impedit sint possimus vel quas
@@ -67,11 +73,137 @@
                             necessitatibus. Harum itaque ipsam, culpa maxime minus animi dolorem facere saepe alias
                             architecto enim?</h3>
                     </div>
-                    <div class="profilePic">
-                        <img src="" alt="">
+                    <div class="contact">
+                        <div>
+                            <h3 class="cont-head">Phone</h3>
+                            <p class="cont-detail">8825389173</p>
+                        </div>
+                        <div>
+                            <h3 class="cont-head">Email</h3>
+                            <p class="cont-detail">kumar007ritik@gmail.com</p>
+                        </div>
+                        <div>
+                            <h3 class="cont-head">Website</h3>
+                            <p class="cont-detail">www.kr007ritik</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="profilePic">
+                    <img src="img/profile-pic.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- education -->
+        <section>
+            <div class="title animate__animated animate__flipInX">education</div>
+            <div class="container-edu">
+
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section id="skills">
+            <div class="title animate__animated animate__flipInX">skills</div>
+            <div class="container-skills">
+                <div class="course">
+                    <h4>adobe photoshop</h4>
+                    <div class="progress-bar">
+                        <div class="bar">
+                            <div class="progress"  aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="width: 90%;"></div>
+                        </div>
+                        <h3 class="color-primary">90%</h3>
+                    </div>
+                </div>
+                <div class="course">
+                    <h4>html 5</h4>
+                    <div class="progress-bar">
+                        <div class="bar">
+                            <div class="progress"  aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="width: 95%;"></div>
+                        </div>
+                        <h3 class="color-primary">95%</h3>
+                    </div>
+                </div>
+                <div class="course">
+                    <h4>adobe illustrator</h4>
+                    <div class="progress-bar">
+                        <div class="bar">
+                            <div class="progress"  aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="width: 90%;"></div>
+                        </div>
+                        <h3 class="color-primary">90%</h3>
+                    </div>
+                </div>
+                <div class="course">
+                    <h4>css 3 animation </h4>
+                    <div class="progress-bar">
+                        <div class="bar">
+                            <div class="progress"  aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="width: 90%;"></div>
+                        </div>
+                        <h3 class="color-primary">90%</h3>
+                    </div>
+                </div>
+                <div class="course">
+                    <h4>adobe after effects</h4>
+                    <div class="progress-bar">
+                        <div class="bar">
+                            <div class="progress"  aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="width: 90%;"></div>
+                        </div>
+                        <h3 class="color-primary">90%</h3>
+                    </div>
+                </div>
+                <div class="course">
+                    <h4>communication</h4>
+                    <div class="progress-bar">
+                        <div class="bar">
+                            <div class="progress"  aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="width: 90%;"></div>
+                        </div>
+                        <h3 class="color-primary">90%</h3>
+                    </div>
+                </div>
+                <div class="course">
+                    <h4>sketch</h4>
+                    <div class="progress-bar">
+                        <div class="bar">
+                            <div class="progress"  aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="width: 90%;"></div>
+                        </div>
+                        <h3 class="color-primary">90%</h3>
+                    </div>
+                </div>
+                <div class="course">
+                    <h4>creativity</h4>
+                    <div class="progress-bar">
+                        <div class="bar">
+                            <div class="progress"  aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="width: 90%;"></div>
+                        </div>
+                        <h3 class="color-primary">90%</h3>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!-- experience -->
+        <section>
+            <div class="title animate__animated animate__flipInX">experience</div>
+        </section>
+
+        <!-- profiles -->
+        <section>
+            <div class="title animate__animated animate__flipInX">profiles</div>
+        </section>
+
+        <!-- portfolio -->
+        <section>
+            <div class="title animate__animated animate__flipInX">portfolio</div>
+        </section>
+
+        <!-- clients -->
+        <section>
+            <div class="title animate__animated animate__flipInX">clients</div>
+        </section>
+
+        <!-- contact me -->
+        <section>
+            <div class="title animate__animated animate__flipInX">contact me</div>
         </section>
     </main>
 </body>
