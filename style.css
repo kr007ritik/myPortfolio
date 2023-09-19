@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbarStart */
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+
+    .container-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 5px 5px 30px #d6d1d1;
+    }
+
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+        font-weight: 900 !important;
+    }
+
+    .navbar ul {
+        list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        color: grey;
+        text-transform: uppercase;
+    }
+
+    a:hover {
+        color: #d92cf9;
+    }
+}
+
+
+/* Welcome Banner start */
+.welcomeBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: url(img/welcome-banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -9;
+}
+
+.welcomeBanner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(31, 44, 108, .65);
+    width: 100%;
+    height: 100%;
+    z-index: -8;
+}
+
+.welcomeBanner {
+
+    /* Inside classes and elements of welcomeBanner */
+    .container-banner {
+        z-index: 999;
+    }
+
+    .container-banner::before,
+    .container-banner::after {
+        display: table;
+        content: "";
+        position: relative;
+        z-index: 999;
+    }
+
+    .headerText {
+        margin: 50px auto;
+        text-align: center;
+        z-index: 2;
+
+
+        h2 {
+            color: white;
+            font-size: 54px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            /* opacity: 0; */
+        }
+
+        p {
+            color: whitesmoke;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin: 50px 0;
+        }
+
+        a {
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #b636ff;
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 900;
+            z-index: 999;
+        }
+    }
+}
+
+
+/* section2 About Me */
+.title {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 25px;
+    font-weight: 900;
+    border-bottom: 1px solid rgb(241, 224, 224);
+}
+
+.container-aboutMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 50px 200px;
+
+    .aboutMe{
+        h2{
+            line-height: 30px;
+            font-family:Poppins,sans-serif;
+            font-weight: 500;
+        }
+        h3{
+            line-height: 30px;
+            color: grey;
+            font-family:Poppins,sans-serif;
+            font-weight: 300;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+/* default Style */
+.color-primary {
+    color: #d92cf9;
+}
+
+.bgcolor-primary {
+    background-color: #d92cf9;
+}
