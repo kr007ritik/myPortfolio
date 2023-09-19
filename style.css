@@ -7,8 +7,10 @@ body {
     box-sizing: border-box;
 }
 
+
+
 /* navbarStart */
-nav {
+header {
     position: sticky;
     top: 0;
     width: 100%;
@@ -23,11 +25,16 @@ nav {
         box-shadow: 5px 5px 30px #d6d1d1;
     }
 
-    h2 {
+    .nameTag{
         font-family: 'Skranji', cursive;
         cursor: pointer;
         font-weight: 900 !important;
     }
+
+    .nameTag:hover{
+        scale: 1.2;
+    }
+
 
     .navbar ul {
         list-style-type: none;
@@ -48,6 +55,23 @@ nav {
     a:hover {
         color: #d92cf9;
     }
+}
+
+/* Top mover button */
+.top-mover-btn a{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: 10px 13px;
+    color: #fff;
+    background-color: #7e2cf9;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+}
+.top-mover-btn a:hover{
+    background-color: #7e2cf9aa;
 }
 
 
@@ -231,9 +255,14 @@ nav {
 }
 
 
-
-
-
+/* footer */
+footer{
+    p{
+        text-align: center;
+        color: grey;
+        margin: 50px 0;
+    }
+}
 
 /* Common classes */
 .color-primary {
