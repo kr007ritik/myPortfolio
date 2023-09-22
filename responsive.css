@@ -19,9 +19,13 @@
         }
 
         .nameTag {
-            h2{
+            h2 {
                 margin: 10px 0 0 0;
             }
+        }
+
+        .navbar ul {
+            margin-top: 0;
         }
     }
 
