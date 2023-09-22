@@ -1,6 +1,6 @@
 @media only screen and (max-width:1280px) {
     .container-aboutMe {
-        margin: 20px 50px;
+        margin: 20px 30px;
     }
 
     .container-skills {
@@ -13,10 +13,23 @@
 }
 
 @media only screen and (max-width:820px) {
+    header {
+        .container-nav {
+            justify-content: center;
+        }
+
+        .nameTag {
+            h2{
+                margin: 10px 0 0 0;
+            }
+        }
+    }
+
+
     .container-aboutMe {
         grid-template-columns: 1fr;
         justify-content: center;
-        margin: 20px 50px;
+        margin: 20px 5px;
         gap: 10px;
 
         .aboutMe {
