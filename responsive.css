@@ -6,8 +6,15 @@
     .container-skills {
         grid-template-columns: 1fr 1fr;
         column-gap: 50px;
-        margin: 50px 50px;
+        margin: 50px;
 
+    }
+
+    .container-edu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+        margin: 50px;
     }
 
 }
@@ -29,7 +36,6 @@
         }
     }
 
-
     .container-aboutMe {
         grid-template-columns: 1fr;
         justify-content: center;
@@ -48,6 +54,12 @@
                 width: 200px;
             }
         }
+    }
+
+    .container-edu{
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        margin: 30px;
     }
 
 }
