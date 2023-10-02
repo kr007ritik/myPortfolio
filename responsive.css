@@ -2,7 +2,7 @@
     .container-aboutMe {
         margin: 20px 30px;
     }
-
+    
     .container-skills {
         grid-template-columns: 1fr 1fr;
         column-gap: 50px;
