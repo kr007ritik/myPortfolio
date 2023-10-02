@@ -10,11 +10,22 @@
 
     }
 
-    .container-edu{
+    .container-edu {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 30px;
         margin: 50px;
+    }
+
+    #projects {
+        .card-container{
+            margin: 20px 0px;
+            column-gap: 30px;
+
+            .card{
+                margin: 0;
+            }
+        }
     }
 
 }
@@ -56,7 +67,7 @@
         }
     }
 
-    .container-edu{
+    .container-edu {
         grid-template-columns: 1fr;
         row-gap: 40px;
         margin: 30px;
