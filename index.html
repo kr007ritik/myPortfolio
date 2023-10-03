@@ -25,10 +25,10 @@
                     <ul class="animate__animated animate__fadeInDown">
                         <li><a href="#education">Education</a></li>
                         <li><a href="#skills">Skills</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#experience" class="disabled">Experience</a></li>
+                        <li><a href="#profile" class="disabled">Profile</a></li>
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#clients" class="disabled">Clients</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -42,7 +42,7 @@
 
     <main>
         <!-- banner -->
-        <section>
+        <section id="banner">
             <div class="welcomeBanner" id="welcomeBanner">
                 <div class="container-banner">
                     <div class="headerText">
@@ -65,7 +65,7 @@
         </section>
 
         <!-- about me -->
-        <section>
+        <section id="about">
             <div class="title animate__animated animate__flipInX">ABOUT ME</div>
             <div class="container-aboutMe">
                 <div class="aboutMe">
@@ -87,14 +87,10 @@
                             <h3 class="cont-head">Email</h3>
                             <p class="cont-detail">kumar007ritik@gmail.com</p>
                         </div>
-                        <div>
-                            <h3 class="cont-head">Website</h3>
-                            <p class="cont-detail">my-portfolio-rk.netlify.app</p>
-                        </div>
                     </div>
                 </div>
                 <div class="profilePic">
-                    <img src="img/profile-pic.jpeg" alt="">
+                    <img src="img/bg4.jpeg" alt="">
                 </div>
             </div>
         </section>
@@ -108,7 +104,7 @@
                     <h3 class="course-name">Intermediate</h3>
                     <hr>
                     <h4 class="college-name">LP Shahi College, Patna</h4>
-                    <h5 class="location">Ram Krishna Nagar, Patna</h5>
+                    <h5 class="location">Ram Krishna Nagar, Patna, Bihar</h5>
                     <p class="about-college">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam sunt, et
                         laudantium blanditiis dolor neque qui quos nisi ea eaque?</p>
                 </div>
@@ -117,7 +113,7 @@
                     <h3 class="course-name">Graduation</h3>
                     <hr>
                     <h4 class="college-name">A.N. College, Patna</h4>
-                    <h5 class="location">Boring Road, Patna</h5>
+                    <h5 class="location">Boring Road, Patna, Bihar</h5>
                     <p class="about-college">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad sint odio
                         eligendi provident modi a reprehenderit quas facere dolorem at?</p>
                 </div>
@@ -126,7 +122,7 @@
                     <h3 class="course-name">Full Stack Developer Course</h3>
                     <hr>
                     <h4 class="college-name">Newton School</h4>
-                    <h5 class="location">(Online Course) Banglore</h5>
+                    <h5 class="location">(Online Course) Bangalore, Karnataka</h5>
                     <p class="about-college">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, nulla nihil
                         aliquam dicta hic repellendus pariatur ratione tenetur id laudantium!</p>
                 </div>
@@ -271,14 +267,14 @@
         </section>
 
         <!-- experience -->
-        <section id="experience">
+        <!-- <section id="experience">
             <div class="title animate__animated animate__flipInX">experience</div>
-        </section>
+        </section> -->
 
         <!-- profile -->
-        <section id="profile">
+        <!-- <section id="profile">
             <div class="title animate__animated animate__flipInX">profiles</div>
-        </section>
+        </section> -->
 
         <!-- projects -->
         <section id="projects">
@@ -287,7 +283,7 @@
                 <div class="card">
                     <img src="project_img/project1.png" alt="" class="image">
                     <div class="middle">
-                        <a href="https://rk-mygov.netlify.app/" target="_blank" class="text">Click here to visit this
+                        <a href="https://rk-mygov.netlify.app/" target="_blank" class="text">Click here to visit
                             Project</a>
                     </div>
                 </div>
@@ -309,16 +305,16 @@
         </section>
 
         <!-- clients -->
-        <section id="clients">
+        <!-- <section id="clients">
             <div class="title animate__animated animate__flipInX">clients</div>
-        </section>
+        </section> -->
 
         <!-- contact me -->
         <section id="contact">
             <div class="title animate__animated animate__flipInX">contact me</div>
-            <div class="contact-bg" id="">
+            <div class="contact-bg" >
                 <div class="contact-form">
-                    <form action="" target="_blank" method="post">
+                    <form action="" target="_blank" method="post" class="">
                         <div class="form-section">
                             <label for="name">Name :</label>
                             <input type="text" name="name" id="name" required>

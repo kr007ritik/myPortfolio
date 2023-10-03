@@ -1,24 +1,29 @@
 @media only screen and (max-width:1280px) {
     html {
-        scroll-padding-top: 120px;
+        scroll-padding-top: 70px;
     }
 
-    .container-aboutMe {
-        margin: 20px 30px;
+    #about {
+        .container-aboutMe {
+            margin: 20px 30px 0;
+        }
     }
 
-    .container-skills {
-        grid-template-columns: 1fr 1fr;
-        column-gap: 50px;
-        margin: 50px;
-
+    #education {
+        .container-edu {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 30px;
+            margin: 50px;
+        }
     }
 
-    .container-edu {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 30px;
-        margin: 50px;
+    #skills {
+        .container-skills {
+            grid-template-columns: 1fr 1fr;
+            column-gap: 50px;
+            margin: 10px 50px;
+        }
     }
 
     #projects {
@@ -36,78 +41,75 @@
 
 @media only screen and (max-width:820px) {
     html {
-        scroll-padding-top: 120px;
+        scroll-padding-top: 90px;
     }
 
     header {
         .container-nav {
             justify-content: center;
-        }
 
-        .nameTag {
-            h2 {
-                margin: 10px 0 0 0;
+            .nameTag {
+                h2 {
+                    margin: 10px 0 0 0;
+                }
             }
-        }
 
-        .navbar ul {
-            margin-top: 0;
-        }
-    }
-
-    .container-aboutMe {
-        grid-template-columns: 1fr;
-        justify-content: center;
-        margin: 20px 5px;
-        gap: 10px;
-
-        .aboutMe {
-            order: 2;
-        }
-
-        .profilePic {
-            order: 1;
-            text-align: center;
-
-            & img {
-                width: 200px;
+            .navbar ul {
+                margin-top: 0;
+                padding: 0 auto;
             }
         }
     }
 
-    .container-edu {
-        grid-template-columns: 1fr;
-        row-gap: 40px;
-        margin: 30px;
+    #about {
+        .container-aboutMe {
+            grid-template-columns: 1fr;
+            justify-content: center;
+            margin: 20px 5px 0;
+            gap: 10px;
+
+            .aboutMe {
+                order: 2;
+            }
+
+            .profilePic {
+                order: 1;
+                text-align: center;
+
+                & img {
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    #education {
+        .container-edu {
+            grid-template-columns: 1fr;
+            row-gap: 40px;
+            margin: 0 30px;
+        }
     }
 
 }
 
 @media only screen and (max-width:430px) {
     html {
-        scroll-padding-top: 180px;
+        scroll-padding-top: 120px;
     }
 
-    .container-skills {
-        grid-template-columns: 1fr;
-        column-gap: 0px;
+    #skills {
+        .container-skills {
+            grid-template-columns: 1fr;
+            column-gap: 0px;
+            margin: 10px 30px 0;
+        }
     }
 
     #contact {
         .contact-bg {
             padding: 50px;
 
-            & form {
-
-                & input[type="text"],
-                input[type="email"],
-                input[type="tel"],
-                input[type="number"],
-                textarea,
-                select {
-                    width: 300px;
-                }
-            }
         }
     }
 }
