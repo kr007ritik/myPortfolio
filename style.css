@@ -377,7 +377,7 @@ header {
         justify-content: space-evenly;
         align-items: center;
         gap: 50px;
-        margin: 30px 200px ;
+        margin: 30px 200px;
 
         .card {
             /* margin: 0 20px; */
