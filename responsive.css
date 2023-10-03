@@ -6,7 +6,7 @@
     .container-aboutMe {
         margin: 20px 30px;
     }
-    
+
     .container-skills {
         grid-template-columns: 1fr 1fr;
         column-gap: 50px;
@@ -22,11 +22,11 @@
     }
 
     #projects {
-        .card-container{
+        .card-container {
             margin: 20px 0px;
             column-gap: 30px;
 
-            .card{
+            .card {
                 margin: 0;
             }
         }
@@ -91,5 +91,23 @@
     .container-skills {
         grid-template-columns: 1fr;
         column-gap: 0px;
+    }
+
+    #contact {
+        .contact-bg {
+            padding: 50px;
+
+            & form {
+
+                & input[type="text"],
+                input[type="email"],
+                input[type="tel"],
+                input[type="number"],
+                textarea,
+                select {
+                    width: 300px;
+                }
+            }
+        }
     }
 }
