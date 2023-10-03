@@ -87,7 +87,7 @@
         .container-edu {
             grid-template-columns: 1fr;
             row-gap: 40px;
-            margin: 0 30px;
+            margin: 30px;
         }
     }
 
