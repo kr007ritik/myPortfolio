@@ -8,7 +8,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 60px;
+    scroll-padding-top: 85px;
 }
 
 body {
@@ -85,20 +85,25 @@ header {
 .top-mover-btn {
     & a {
         position: fixed;
-        bottom: 50px;
-        right: 50px;
+        bottom: calc(100% - 96%);
+        right: calc(100% - 97%);
         padding: 10px 13px;
         color: #fff;
-        background-color: #7e2cf9;
+        /* background-color: #7e2cf9; */
         border: none;
         border-radius: 50%;
         cursor: pointer;
         z-index: 999;
+
+        & img{
+            width: 40px;
+        }
+
+        & img:hover{
+            scale: 1.1;
+        }
     }
 
-    a:hover {
-        background-color: #7e2cf9aa;
-    }
 
 }
 
@@ -174,7 +179,7 @@ header {
 /* all title */
 .title {
     text-align: center;
-    padding: 30px 0 5px;
+    padding: 10px 0;
     font-size: 30px;
     font-weight: 300;
     color: rgb(81, 81, 81);
@@ -192,7 +197,7 @@ header {
         grid-template-columns: 2fr 1fr;
         justify-content: space-between;
         gap: 100px;
-        margin: 50px 200px 0;
+        margin: 10px 200px 30px;
 
         .aboutMe {
             .details {
@@ -259,7 +264,7 @@ header {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 30px;
-        margin: 50px 200px 0;
+        margin: 10px 200px 30px;
 
         & hr {
             opacity: 0.5;
@@ -269,6 +274,7 @@ header {
         .box {
             font-family: Poppins, sans-serif;
             border-right: 2px solid rgb(150, 149, 149);
+            margin-bottom: 20px;
 
             .session {
                 font-size: 20px;
@@ -314,8 +320,7 @@ header {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 50px;
-        margin: 10px 200px 0;
-
+        margin: 10px 200px 30px;
 
         .course {
 
@@ -370,6 +375,8 @@ header {
 
 /* Section- projects */
 #projects {
+    background: url(img/edubg.jpg);
+    box-shadow: 0px 0px 5px 2px #7e2cf9aa;
 
     .card-container {
         display: flex;
@@ -377,7 +384,9 @@ header {
         justify-content: space-evenly;
         align-items: center;
         gap: 50px;
-        margin: 30px 200px;
+        margin: 10px 200px;
+        padding-bottom: 30px;
+
 
         .card {
             /* margin: 0 20px; */
@@ -425,7 +434,7 @@ header {
         }
 
         .card:hover .image {
-            opacity: 0.3;
+            opacity: 0.6;
         }
 
         .card:hover .middle {
@@ -438,7 +447,31 @@ header {
     }
 }
 
-/* Section- contact */
+/* Section- profiles */
+#profile{
+    
+    .profile-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px 200px 30px;
+
+        & a{
+            filter: drop-shadow(5px 5px 20px #7e2cf9aa);
+        }
+        
+        & a:hover{
+            filter: drop-shadow(5px 5px 20px #7e2cf9);
+        }
+
+        & img:hover{
+            scale: 1.1;
+        }
+    }
+}
+
+/* Section- contact*/
 #contact {
 
     .contact-bg::before {
