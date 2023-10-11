@@ -95,11 +95,11 @@ header {
         cursor: pointer;
         z-index: 999;
 
-        & img{
+        & img {
             width: 40px;
         }
 
-        & img:hover{
+        & img:hover {
             scale: 1.1;
         }
     }
@@ -186,7 +186,6 @@ header {
     border-bottom: 1px solid rgb(241, 224, 224);
     text-transform: uppercase;
     font-family: 'Croissant One', cursive;
-
 }
 
 /* section- about me */
@@ -303,13 +302,9 @@ header {
                 color: #999fb3;
                 line-height: 1.8;
                 margin: 0 5px 0 0;
+                /* text-align: justify; */
             }
         }
-
-        .box:hover {
-            /* background-color: #dcccf51e; */
-        }
-
     }
 }
 
@@ -387,7 +382,6 @@ header {
         margin: 10px 200px;
         padding-bottom: 30px;
 
-
         .card {
             /* margin: 0 20px; */
             width: 300px;
@@ -448,24 +442,24 @@ header {
 }
 
 /* Section- profiles */
-#profile{
-    
-    .profile-container{
+#profile {
+
+    .profile-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         margin: 10px 200px 30px;
 
-        & a{
+        & a {
             filter: drop-shadow(5px 5px 20px #7e2cf9aa);
         }
-        
-        & a:hover{
+
+        & a:hover {
             filter: drop-shadow(5px 5px 20px #7e2cf9);
         }
 
-        & img:hover{
+        & img:hover {
             scale: 1.1;
         }
     }
