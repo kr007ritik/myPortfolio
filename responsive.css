@@ -20,9 +20,7 @@
 
     #skills {
         .container-skills {
-            grid-template-columns: 1fr 1fr;
-            column-gap: 50px;
-            margin: 10px 50px 30px;
+            margin: 30px 50px;
         }
     }
 
