@@ -8,8 +8,8 @@
     <meta name="keywords" content="kr007ritik,ritik,Ritik,Ritik Kumar, ritik kumar,kumar007ritik,">
     <title>My Portfolio | Ritik Kumar</title>
     <link rel="icon" href="img/icons8-r-94.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="Stylesheet/style.css">
+    <link rel="stylesheet" href="Stylesheet/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
@@ -147,28 +147,12 @@
         <!-- projects -->
         <section id="projects">
             <div class="title animate__animated animate__flipInX">projects</div>
-            <div class="card-container">
-                <div class="card">
-                    <img src="project_img/project1.png" alt="" class="image">
-                    <div class="middle">
-                        <a href="https://rk-mygov.netlify.app/" target="_blank" class="text">Click here to visit this
-                            Project</a>
-                    </div>
+            <div class="project-wrap">
+                <button id="backBtn" class="btn">◀</button>
+                <div class="project">
+                <!-- Project will show here using JS -->
                 </div>
-                <div class="card">
-                    <img src="project_img/project2.png" alt="" class="image">
-                    <div class="middle">
-                        <a href="https://orderonline-meal.netlify.app/" target="_blank" class="text">Click here to visit
-                            this Project</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="project_img/project3.png" alt="" class="image">
-                    <div class="middle">
-                        <a href="https://myportfolio-page-rk.netlify.app/" target="_blank" class="text">Click here to
-                            visit this Project</a>
-                    </div>
-                </div>
+                <button id="nextBtn" class="btn">▶</button>
             </div>
         </section>
 
@@ -233,7 +217,8 @@
     <footer>
         <p>&copy Copyright. Design and Developed by <b>RITIK</b></p>
     </footer>
-    <script src="skills.js"></script>
+    <script src="JavaScript/skills.js"></script>
+    <script src="JavaScript/project.js"></script>
 </body>
 
 

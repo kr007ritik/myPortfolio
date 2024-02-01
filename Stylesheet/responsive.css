@@ -24,15 +24,16 @@
         }
     }
 
-    #projects {
-        .card-container {
-            margin: 10px 0px;
-            column-gap: 30px;
+    #projects .project-wrap {
+        margin: 10px 30px;
+    }
 
-            .card {
-                margin: 0;
-            }
-        }
+    #projects .project-wrap .project {
+        gap: 20px;
+    }
+
+    #projects .project-wrap .btn {
+        font-size: 40px;
     }
 
 }
@@ -97,6 +98,15 @@
         }
     }
     
+    #projects .project-wrap {
+        margin: 10px 20px;
+
+    }
+
+    #projects .project-wrap .btn {
+        font-size: 30px;
+
+    }
 
 }
 
@@ -119,13 +129,14 @@
         }
     }
 
-    #projects {
-        .card-container {
-            margin: 10px 0px 30px;
-            row-gap: 20px;
-        }
+    #projects .project-wrap {
+        margin: 10px;
     }
 
+    #projects .project-wrap .project {
+        gap: 40px;
+    }
+    
     #contact {
         .contact-bg {
             padding: 50px;
