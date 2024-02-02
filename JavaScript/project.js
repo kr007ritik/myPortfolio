@@ -5,10 +5,11 @@ let screenWidth = document.documentElement.clientWidth || window.innerWidth;
 console.log(screenWidth);
 
 const arrOfprojects = [
-  ["https://rk-todo-app.netlify.app/", "todo.png"],
-  ["https://rk-tictactoe-game.netlify.app/", "tictactoe.png"],
-  ["https://rk-weatherapp.netlify.app/", "weather.png"],
+  ["https://rk-calculator-app.netlify.app/", "calculator.png"],
   ["https://rk-quiztest-app.netlify.app/", "quizApp.png"],
+  ["https://rk-todo-app.netlify.app/", "todo.png"],
+  ["https://rk-weatherapp.netlify.app/", "weather.png"],
+  ["https://rk-tictactoe-game.netlify.app/", "tictactoe.png"],
   ["https://myportfolio-page-rk.netlify.app/", "portfolio.png"],
   ["https://rk-mygov.netlify.app/", "myGov.png"],
   ["https://orderonline-meal.netlify.app/", "foodOrder.png"],
