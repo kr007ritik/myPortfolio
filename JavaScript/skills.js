@@ -12,12 +12,12 @@ if (history.scrollRestoration) {
     ["icons/css-3.png", "css", "95%"],
     ["icons/bootstrap.png", "bootstrap", "75%"],
     ["icons/java.png", "java dsa", "70%"],
-    ["icons/sql-server.png", "sql", "60%"],
     ["icons/java-script.png", "javascript", "60%"],
     ["icons/react.png", "react js", "05%"],
     ["icons/node.png", "node js", "00%"],
     ["icons/express.png", "express js", "00%"],
     ["icons/mongo.png", "mongo db", "00%"],
+    ["icons/sql-server.png", "sql", "60%"],
     ["icons/communication.png", "communication", "80%"],
     ["icons/creativity.png", "creativity", "99%"],
   ];

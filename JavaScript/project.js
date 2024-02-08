@@ -2,9 +2,9 @@ let gallery = document.querySelector(".project");
 const backBtn = document.getElementById("backBtn");
 const nextBtn = document.getElementById("nextBtn");
 let screenWidth = document.documentElement.clientWidth || window.innerWidth;
-console.log(screenWidth);
 
 const arrOfprojects = [
+  ["https://rk-text-to-voice-converter-app.netlify.app/", "textToVoice.png"],
   ["https://rk-calculator-app.netlify.app/", "calculator.png"],
   ["https://rk-quiztest-app.netlify.app/", "quizApp.png"],
   ["https://rk-todo-app.netlify.app/", "todo.png"],
