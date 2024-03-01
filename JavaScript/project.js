@@ -4,6 +4,7 @@ const nextBtn = document.getElementById("nextBtn");
 let screenWidth = document.documentElement.clientWidth || window.innerWidth;
 
 const arrOfprojects = [
+  ["https://rk-password-generator-app.netlify.app/", "PassGenerator.png"],
   ["https://rk-qr-code-generator.netlify.app/", "QRC-gen.png"],
   ["https://rk-text-to-voice-converter-app.netlify.app/", "textToVoice.png"],
   ["https://rk-calculator-app.netlify.app/", "calculator.png"],
