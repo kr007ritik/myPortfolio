@@ -1,6 +1,7 @@
 let gallery = document.querySelector(".project");
 const backBtn = document.getElementById("backBtn");
 const nextBtn = document.getElementById("nextBtn");
+const numOfProj = document.getElementById("numOfProj");
 let screenWidth = document.documentElement.clientWidth || window.innerWidth;
 
 const arrOfprojects = [
@@ -57,3 +58,5 @@ function showProjects() {
 }
 
 showProjects();
+
+numOfProj.innerHTML = `Total Number Of Projects:${arrOfprojects.length}`

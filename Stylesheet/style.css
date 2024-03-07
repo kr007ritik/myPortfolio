@@ -427,6 +427,12 @@ header {
     transform: scale(1.05);
 }
 
+#projects p{
+    text-align: center;
+    font-size: 20px;
+    color: #7e2cf9;
+}
+
 /* Section- profiles */
 #profile {
 
